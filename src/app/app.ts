@@ -9,4 +9,8 @@ import { RouterOutlet } from '@angular/router';
 })
 export class App {
   protected title = 'RMS';
+
+  greetByDk(): void {
+    console.log("Hello Everyone :)");
+  }
 }
